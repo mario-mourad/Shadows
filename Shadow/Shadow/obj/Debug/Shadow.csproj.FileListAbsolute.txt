@@ -64,3 +64,4 @@ E:\MCJ2023\Shadows\Shadow\Shadow\bin\Debug\System.Text.Json.xml
 E:\MCJ2023\Shadows\Shadow\Shadow\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\MCJ2023\Shadows\Shadow\Shadow\bin\Debug\System.ValueTuple.xml
 E:\MCJ2023\Shadows\Shadow\Shadow\obj\Debug\Shadow.csproj.CopyComplete
+E:\MCJ2023\Shadows\Shadow\Shadow\obj\Debug\Shadow.csproj.AssemblyReference.cache
