@@ -39,6 +39,7 @@ namespace Shadow
                     Console.WriteLine("User ID is {0}.", response.UserId);
                     //PerformCRUD(serviceClient);
                     CreateCase(serviceClient);
+                    IncidentResolution(serviceClient);
                 }
                 else
                 {
@@ -64,7 +65,6 @@ namespace Shadow
             #endregion
 
         }
-
         static public void CreateCase(ServiceClient svc)
         {
             #region Create Case
@@ -78,6 +78,12 @@ namespace Shadow
             Console.WriteLine("Case create with id - " + recordid);
             #endregion
 
+          
+            
+        }
+        static public void IncidentResolution(ServiceClient svc)
+        {
+            #region IncidentResolution
             Entity IncidentResolution = new Entity("incidentresolution");
             IncidentResolution.Attributes["subject"] = "Subject Closed";
             IncidentResolution.Attributes["incidentid"] = new EntityReference("incident", new Guid("9d0e79ae-27b5-ed11-83ff-000d3a4bbea4"));
@@ -90,7 +96,7 @@ namespace Shadow
             // Execute the close request
             CloseIncidentResponse closeResponse = (CloseIncidentResponse)svc.Execute(closeRequest);
             Console.WriteLine("Resolved Case Done");
-            
+            #endregion
         }
 
     }
