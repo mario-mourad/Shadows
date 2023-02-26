@@ -1,6 +1,7 @@
 ﻿using Microsoft.Crm.Sdk.Messages;
 using Microsoft.PowerPlatform.Dataverse.Client;
 using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -38,8 +39,9 @@ namespace Shadow
 
                     Console.WriteLine("User ID is {0}.", response.UserId);
                     //PerformCRUD(serviceClient);
-                    CreateCase(serviceClient);
-                    IncidentResolution(serviceClient);
+                    //CreateCase(serviceClient);
+                    //IncidentResolution(serviceClient);
+                    CheckParentCase(serviceClient);
                 }
                 else
                 {
@@ -98,6 +100,35 @@ namespace Shadow
             Console.WriteLine("Resolved Case Done");
             #endregion
         }
+        static public void CheckParentCase(ServiceClient svc)
+        {
+            // Define Condition Values
+            //var query_parentcaseid = "39a0159a-1717-4821-8053-d28fec01ba94"; //Child Case
+            var query_parentcaseid = "ea904c59-e1b5-ed11-83ff-000d3a4bbea4"; //Not Child Case
+            // Instantiate QueryExpression query
+            var query = new QueryExpression("incident");
+            // Add columns to query.ColumnSet
+            query.ColumnSet.AddColumns("incidentid", "title");
+            // Define filter query.Criteria
+            query.Criteria.AddCondition("parentcaseid", ConditionOperator.Equal, query_parentcaseid);
+            var caseCollection = svc.RetrieveMultiple(query);
+            if (caseCollection.Entities.Count > 0) 
+            {
+                foreach (var crmCase in caseCollection.Entities)
+                {
 
+                    Console.WriteLine("###############################");
+                    Console.WriteLine("Child Case Title: " + crmCase["title"]);
+
+
+                }
+                Console.WriteLine("YES");
+            }
+            else
+            {
+                Console.WriteLine("NO");
+            }
+           
+        }
     }
 }
