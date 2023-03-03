@@ -1,0 +1,11 @@
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\bin\Debug\ClosedChildCase.dll
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\bin\Debug\ClosedChildCase.pdb
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\obj\Debug\ClosedChildCase.csproj.AssemblyReference.cache
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\obj\Debug\ClosedChildCase.csproj.CoreCompileInputs.cache
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\obj\Debug\ClosedChildCase.csproj.CopyComplete
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\obj\Debug\ClosedChildCase.dll
+E:\MCJ2023\Shadows\Shadow\ClosedChildCase\obj\Debug\ClosedChildCase.pdb
