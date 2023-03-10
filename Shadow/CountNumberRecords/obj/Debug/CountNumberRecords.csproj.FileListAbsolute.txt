@@ -1,0 +1,13 @@
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\CountNumberRecords.dll
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\CountNumberRecords.pdb
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\obj\Debug\CountNumberRecords.csproj.AssemblyReference.cache
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\obj\Debug\CountNumberRecords.csproj.CoreCompileInputs.cache
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\obj\Debug\CountNumberRecords.csproj.CopyComplete
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\obj\Debug\CountNumberRecords.dll
+E:\MCJ2023\Shadows\Shadow\CountNumberRecords\obj\Debug\CountNumberRecords.pdb
