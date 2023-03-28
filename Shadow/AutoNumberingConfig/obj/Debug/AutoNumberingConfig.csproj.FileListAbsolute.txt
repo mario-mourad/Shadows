@@ -1,0 +1,11 @@
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\bin\Debug\AutoNumberingConfig.dll
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\bin\Debug\AutoNumberingConfig.pdb
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\obj\Debug\AutoNumberingConfig.csproj.AssemblyReference.cache
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\obj\Debug\AutoNumberingConfig.csproj.CoreCompileInputs.cache
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\obj\Debug\AutoNumberingConfig.csproj.CopyComplete
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\obj\Debug\AutoNumberingConfig.dll
+E:\MCJ2023\Shadows\Shadow\AutoNumberingConfig\obj\Debug\AutoNumberingConfig.pdb
